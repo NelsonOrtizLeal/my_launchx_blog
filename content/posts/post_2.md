@@ -10,9 +10,6 @@ Es una herramienta que te ofrece GitHub y permite automatizar tareas de Build y 
 # Problematica
 Despues de realizar un **fork** al repositorio original de este blog se tenia que realizar algunas configuraciones sencillas, como lo actualizar el nombre y datos del blog. El problema se presento al momento de que github trato de ejetuar la actions.
 
-![Error en el paso de Push changes ](https://user-images.githubusercontent.com/70604316/167820672-1c2e7952-de76-4dad-95c0-f14533944898.png)
-
-
 # Solucion
 Para solucionar este error, revisa los siguientes puntos en tu archivo .yml:
 
