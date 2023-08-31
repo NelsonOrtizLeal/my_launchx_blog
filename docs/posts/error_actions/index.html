@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Semana 1 - Creacion del blog, Error en la parte de Actions - Bitácora de Viaje</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="https://nelsonortizleal.github.io/my_launchx_blog/favicon.png">
+
+  
+  
+  <link rel="stylesheet" href="../../css/style.min.4f4767d518839223786999cdb69fc7a63791220ecccd236bc732a5f998aaee2d.css">
+  
+
+  
+    <meta name="description" content="Error con permisos al crear un GitHub Action"/>
+    <meta property="og:title" content="Semana 1 - Creacion del blog, Error en la parte de Actions"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:url" content="https://nelsonortizleal.github.io/my_launchx_blog/posts/error_actions/"/>
+    
+    <meta property="og:description" content="Error con permisos al crear un GitHub Action"/>
+    <meta name="twitter:card" content="summary"/>
+    <meta name="twitter:site" content="@Nelson Ortiz"/>
+    <meta name="twitter:creator" content="@Nelson Ortiz"/>
+  
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet"> 
+</head>
+
+
+
+
+<body class='page frame page-blog-single'>
+  <div id="wrapper" class="wrapper">
+    <div class='header'>
+  <a class="header-logo" href="https://nelsonortizleal.github.io/my_launchx_blog/">Bitácora de Viaje</a>
+  <div class="menu-main">
+    <ul>
+        
+        
+            <li class="menu-item-aboutme">
+                <a href="../../pages/about/">AboutMe</a>
+            </li>
+        
+            <li class="menu-item-posts">
+                <a href="../../posts/">Posts</a>
+            </li>
+        
+    </ul>
+  </div>
+</div>
+    
+  <div class="blog">
+    
+    <div class="intro">
+      <h1>Semana 1 - Creacion del blog, Error en la parte de Actions<span class="dot">.</span></h1>
+      
+    </div>
+    <div class="content">
+      <h1 id="github-actions">GitHub Actions</h1>
+<p>Es una herramienta que te ofrece GitHub y permite automatizar tareas de Build y Deploy. Mira a GitHub Actions como una maquina virtual en la cual le puedes dar instrucciones o comandos, ejemplo hacer un ls, mkdir, etc. El potencial de esta herramienta es que usando un archivo .yml y configurando tu repositorio, puedes hacer que github compile y despues depliegue tu proyecto al hacer un simple push a tu repositorio remoto.</p>
+<h1 id="problematica">Problematica</h1>
+<p>Despues de realizar un <strong>fork</strong> al repositorio original de este blog se tenia que realizar algunas configuraciones sencillas, como lo actualizar el nombre y datos del blog. El problema se presento al momento de que github trato de ejetuar la actions.</p>
+<p><img src="https://user-images.githubusercontent.com/70604316/167820672-1c2e7952-de76-4dad-95c0-f14533944898.png" alt="Error en el paso de Push changes "></p>
+<h1 id="solucion">Solucion</h1>
+<p>Para solucionar este error, revisa los siguientes puntos en tu archivo .yml:</p>
+<ol>
+<li>Verifica que la rama a la cual se hara el PUSH es la correcta.</li>
+<li>Verifica que el correo y nombre de usuario sean los correctos, para que tenga los permisos de escritura.</li>
+<li>Revisa la configuracion del repositorio, configuración en settings/actions/general, se tenia que marcar la casilla de Read an Write</li>
+</ol>
+<p>Y listo, eso son las soluciones mas comunes cuando el github bot no tiene permiso para hacer el PUSH al repositorio y actualizar tu pagina.</p>
+
+    </div>
+  </div>
+
+    <div class="footer">
+  
+  <div class="footer-social">
+    
+      <span class="social-icon social-icon-twitter">
+        <a href="https://twitter.com/NelsonO10685323" title="twitter" target="_blank" rel="noopener">
+          <img src="../../images/social/twitter.svg" width="24" height="24" alt="twitter"/>
+        </a>
+      </span>
+    
+      <span class="social-icon social-icon-github">
+        <a href="https://github.com/NelsonOrtizLeal" title="github" target="_blank" rel="noopener">
+          <img src="../../images/social/github.svg" width="24" height="24" alt="github"/>
+        </a>
+      </span>
+    
+  </div>
+  
+</div>
+  </div>
+
+  
+
+  
+
+  
+  <script type="text/javascript" src="../../js/bundle.min.e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js"></script>
+  
+
+  
+  
+
+  
+  
+  
+    
+  
+
+
+</body>
+</html>
