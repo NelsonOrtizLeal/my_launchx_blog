@@ -8,12 +8,13 @@ Hola ✌️  soy el explorer **Nelson** y este es mi blog personal donde compart
 Te invito a conocer mis aprendizajes y leer mis experiencias.
 
 Mis espectativas para este proyecto de innovaccion:
-- Reforzar conocimientos de Git y GitHub
-- Conocer sobre las pruebas UNITARIAS
-- Conocer más sobre el lenguaje JavaScript
-- Utilizar Node y sus dependencias
-- Fundamentos de API
-- Utilizar bases de datos NoSQL
-- Como implementar CI-CD a mis proyectos
+
+* Reforzar conocimientos de Git y GitHub
+* Conocer sobre las pruebas UNITARIAS
+* Conocer más sobre el lenguaje JavaScript
+* Utilizar Node y sus dependencias
+* Fundamentos de API
+* Utilizar bases de datos NoSQL
+* Como implementar CI-CD a mis proyectos
 
 🚀
