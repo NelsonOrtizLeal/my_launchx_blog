@@ -9,10 +9,10 @@
     <lastBuildDate>Sun, 24 Feb 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://nelsonortizleal.github.io/my_launchx_blog/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Semana 1 - Creacion del blog, Error en la parte de Actions</title>
-      <link>https://nelsonortizleal.github.io/my_launchx_blog/posts/error_actions/</link>
+      <link>https://nelsonortizleal.github.io/my_launchx_blog/posts/post_2/</link>
       <pubDate>Wed, 11 May 2022 18:16:21 -0600</pubDate>
       
-      <guid>https://nelsonortizleal.github.io/my_launchx_blog/posts/error_actions/</guid>
+      <guid>https://nelsonortizleal.github.io/my_launchx_blog/posts/post_2/</guid>
       <description>GitHub Actions Es una herramienta que te ofrece GitHub y permite automatizar tareas de Build y Deploy. Mira a GitHub Actions como una maquina virtual en la cual le puedes dar instrucciones o comandos, ejemplo hacer un ls, mkdir, etc. El potencial de esta herramienta es que usando un archivo .yml y configurando tu repositorio, puedes hacer que github compile y despues depliegue tu proyecto al hacer un simple push a tu repositorio remoto.</description>
     </item>
     
